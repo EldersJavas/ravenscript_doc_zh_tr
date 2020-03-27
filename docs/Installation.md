@@ -25,40 +25,50 @@ Visual Studio Code是一个来自微软的代码编辑器。
 Unity默认的代码编辑器是MonoEdit或Visual Studio（注意是臃肿的VS）。但是我们可以配置Unity来使用VSCode:
 
 1. 在Unity中启用Ravenfield Tools Pack.
-2. 打开Unity偏好 (Edit > Preferences)
-3. 找到 `External Tools`
-4. 从下拉框里找到你喜欢的代码编辑器
-<img src="http://ravenfieldgame.com/ravenscript/_images/unity-external-tools-vs17.png" />
-5. 找到 %localappdata%/Programs/Microsoft VS Code/ 并选中 Code.exe
-6. Visual Studio Code 会立刻成为被选中成为你的默认代码编辑器.
-7. 关闭偏好窗口。
-8. 打开一个新的VSCode窗口(不需要创建新项目)
-9. 打开 Ravenfield Tools Pack 文件夹 (File > Open Folder)
 
-<img src="http://ravenfieldgame.com/ravenscript/_images/vscode-open-folder.png" />
-010. 完成
+2. 打开Unity偏好 (Edit > Preferences)
+
+3. 找到  `External Tools`
+
+4. 从下拉框里找到你喜欢的代码编辑器<img src="http://ravenfieldgame.com/ravenscript/_images/unity-external-tools-vs17.png" />
+
+5. 找到  `%localappdata%/Programs/Microsoft VS Code/`  并选中 `Code.exe`
+
+6. `Visual Studio Code` 会立刻成为被选中成为你的默认代码编辑器.
+
+7. 关闭偏好窗口。
+
+8. 打开一个新的VSCode窗口(不需要创建新项目)
+
+9. 打开 `Ravenfield Tools Pack` 文件夹 (File > Open Folder)<img src="http://ravenfieldgame.com/ravenscript/_images/vscode-open-folder.png" />
+
+10. 完成
 
 ## 安装扩展
 VSCode可以通过扩展进行高度定制。这里有Lua、c#和用于调试的扩展。
 
-1. Open VSCode
-2. Open the extensions tab (View > Extensions)
-<img src="http://ravenfieldgame.com/ravenscript/_images/vscode-open-extensions.png" />
+1. 打开VScode
+2. 打开扩展栏 (View > Extensions)<img src="http://ravenfieldgame.com/ravenscript/_images/vscode-open-extensions.png" />
+
 3. 在顶上的搜索框里搜索 `VScode-lua`
+
 4. 选第一个扩展
-5. 点那个绿色的安装按钮
-<img src="http://ravenfieldgame.com/ravenscript/_images/vscode-install-lua.png" />
-6. 再安装一个 `C#` 的扩展 (除非你已经安装了)
-7. 再安装一个 `EditorConfig for VS Code`
+
+5. 点那个绿色的安装按钮<img src="http://ravenfieldgame.com/ravenscript/_images/vscode-install-lua.png" />
+
+6. 再安装一个  `C#`  的扩展 (除非你已经安装了)
+
+7. 再安装一个  `EditorConfig for VS Code`
+
 8. 完成
 
 ## 语法高亮
 
 > Note： 如果您遵循了上面的操作，那么在最新的`Ravenfield Tools Pack`中，语法高亮应该是开箱即用的。
 
-Ravenscript文件使用.txt文件扩展名。它们作为文本资产被捆绑到`Ravenfield Tools Pack`中，因此需要文件扩展名。
+Ravenscript文件使用.txt文件扩展名。它们作为文本资产被捆绑到 `Ravenfield Tools Pack` 中，因此需要文件扩展名。
 
-VSCode应该将`Ravenfield Tools Pack`中的所有.txt文件都视为Lua代码。如果您遵循了上述步骤，那么它应该已经按预期工作了。如果没有，请继续阅读
+VSCode应该将 `Ravenfield Tools Pack` 中的所有.txt文件都视为Lua代码。如果您遵循了上述步骤，那么它应该已经按预期工作了。如果没有，请继续阅读
 
 VSCode不直接对.txt文件使用语法高亮。我们必须让VSCode将Lua语法高亮应用到Ravenfield Tools Pack文件夹中的所有.txt文件。
 
@@ -73,3 +83,4 @@ VSCode不直接对.txt文件使用语法高亮。我们必须让VSCode将Lua语�
     }
 }
 ```
+> By [EldersJavas](https://github.com/EldersJavas/ravenscript_doc_zh_tr/)
